@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
     }
-
+//test comment
     fun startGame(view: View) {
         val gameView = GameView(view.context)
         setContentView(gameView as View)
